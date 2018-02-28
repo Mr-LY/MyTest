@@ -14,6 +14,7 @@ public class Mytest implements  Runnable{
         System.out.println("Hello");
         System.out.println("World");
         System.out.println("For interlij Update!");
+        System.out.println("commit to github by interlij!");
         
         new Thread( () -> System.out.println("In Java8, Lambda expression rocks !!") ).start();
 
