@@ -13,7 +13,8 @@ public class Mytest implements  Runnable{
     public static void main(String[] args) {
         System.out.println("Hello");
         System.out.println("World");
-
+        System.out.println("For interlij Update!");
+        
         new Thread( () -> System.out.println("In Java8, Lambda expression rocks !!") ).start();
 
         System.out.println("ReCompile Ok!");
